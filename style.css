@@ -1,0 +1,168 @@
+/*
+Theme Name: nouvelle tech
+Theme URI: http://localhost/wordpress/wp-admin/
+Author: urbaniak nicolas
+Author URI: https://wordpress.org/
+Description: blog sur les 3 nouvelles technologies de l'armée de terre
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nouvelle tech
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*-------------css URBANIAK--H T M L------------------*/
+
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background: url(img/accueil.jpg) no-repeat center center fixed;
+}
+
+a{
+  color:#c00;
+  list-style-type: none;
+  text-decoration: none;
+  }
+
+li{
+  list-style-type: none;
+}
+
+/*--------------BODY--------------------------------*/
+
+h1{
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(175,255,251,0.5);
+  margin-top: 50px;
+}
+
+h1 span{
+  color: rgb(14, 62, 165);
+}
+
+/* -------------------N A V    Barre-------------*/
+.nav {
+  width:100%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+ .nav nav ul li {
+  list-style-type: none;
+  float: left;
+  border: 1px solid white;
+  width: 25%;
+  background-color: rgb(60,90,153);
+}
+
+.nav nav ul li a{
+  line-height: 3.5em;
+  color: white;
+}
+
+@media screen and (max-width: 680px)
+
+{
+
+hr{
+    display:none;
+  }
+}
+/*----------------------------------------------*/
+.corps .conte{
+  margin-top: 30px;
+}
+
+.contenu .rens{
+    width: 60%;
+    height: auto;
+    border: 1px solid white;
+    margin: auto;
+    background-color: white;
+    margin-top: 30px;
+    text-align:left;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.contenu .rens img{
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.contenu .rens a{
+  color: black;
+  display: inline-block;
+}
+
+/*-------------------F O O T E R----------------------------*/
+
+ footer{
+   display:block;
+   background-color: rgb(216,216,216);
+   width: 100%;
+   margin-top: 50px;
+ }
+
+footer .heure{
+  width: 10%;
+}
+
+#date {
+  width: 30%;
+}
+
+footer .resaux{
+  width: 25%;
+  margin-left: 40%;
+}
+
+footer .resaux .ul  {
+  float: left;
+}
+
+.resaux img {
+  border-radius: 7px;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 2%;
+}
+
+/*-------------------CSS  F O R M U L A I R E--------------*/
+
+form li {
+  border-radius: 10px;
+  -moz-border-radius: 5px;
+  -web-kit-border-radius: 5px;
+  padding: 20px;
+  width: 20%;
+  margin:auto;
+  }
+
+form ol {
+    display: block;
+    list-style-type: none;
+  }
+
+form fieldset {
+    border: none;
+    margin-right: 30%;
+  }
+
+fieldset .message {
+    float: left;
+  }
+/*-------------------V I D E O --------------------------*/
+.video {
+  margin-top: 50px;
+}
